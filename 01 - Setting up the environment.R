@@ -6,6 +6,7 @@
 renv::init()
 renv::install("tidyverse")
 renv::install("writexl")
+renv::install("tictoc")
 
 renv::snapshot()
 
